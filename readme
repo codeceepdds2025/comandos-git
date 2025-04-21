@@ -1,0 +1,53 @@
+git init 
+iniciar um novo projeto com git 
+
+git add <nome-arquivo>/.
+add os arquivos estão prontos para serem commitados
+
+git config --global user.email "your_email@example.com"
+
+git config --global user.name "your_name"
+
+git commit -m "mensagem commit"
+commit os arquivos no historico
+
+git log
+mostra os ultimos commit, log das alterações 
+
+git status 
+como está o estado das nossas ramificações 
+
+git diff 
+mostra o que foi alterado
+o que tem da alteração da ramificação 
+ 
+git branch
+mostra a branch atual
+
+git checkout <nome-da-branch>
+muda para essa branch
+
+git checkout -b <nome-da-branch>
+muda para essa branch criando-a
+
+git branch -b <nome-da-branch>
+criar uma nova branch a partir da branch atual que estamos 
+
+git branch -M main
+renomeia a branch para main
+
+git remote add <nome(origin)> <url>
+add um novo repositorio remoto
+
+git push <nome> <nome-da-branch>
+manda nossas alterações para o repositorio remoto, para cada branch
+
+git pull <nome> <nome-da-branch>
+pega as alterações do repositorio remoto, e joga para nossa maquina local
+
+git clone <url>
+clona o repositório para máquina local
+
+git fetch
+atualiza o novo historico local de acordo com o historico salvo no repositório
+
