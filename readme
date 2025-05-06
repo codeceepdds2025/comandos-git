@@ -48,6 +48,8 @@ pega as alterações do repositorio remoto, e joga para nossa maquina local
 git clone <url>
 clona o repositório para máquina local
 
+git config credential.helper store
+
 git fetch
 atualiza o novo historico local de acordo com o historico salvo no repositório
 
