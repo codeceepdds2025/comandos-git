@@ -53,3 +53,5 @@ git config credential.helper store
 git fetch
 atualiza o novo historico local de acordo com o historico salvo no repositório
 
+git clone --single-branch --branch development https://github.com/username/project.git
+
